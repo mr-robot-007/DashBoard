@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function UserInfo() {
   return (
-    <div className="flex h-[4rem] items-center justify-between  px-4">
+    <div className="flex h-[4rem] items-center justify-between  px-4 mt-1">
       <div className="flex items-center gap-4">
         <div className="text-[2rem] text-blue-800 bg-white rounded p-[2px]">
           <SiNamecheap
