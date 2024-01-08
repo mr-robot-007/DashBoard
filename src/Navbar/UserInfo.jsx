@@ -3,18 +3,10 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function UserInfo() {
   return (
-    <div className="flex h-[4rem] items-center justify-between  px-4 mt-1">
+    <div className="mt-1 flex h-[4rem] items-center  justify-between px-4">
       <div className="flex items-center gap-4">
-        <div className="text-[2rem] text-blue-800 bg-white rounded p-[2px]">
-          <SiNamecheap
-            // style={{
-            //   color: "blue",
-            //   backgroundColor: "white",
-            //   height: "2.5rem",
-            //   width: "2.5rem",
-            //   borderRadius: "5px",
-            // }}
-          />
+        <div className="rounded bg-white p-[2px] text-[2rem] text-blue-800">
+          <SiNamecheap />
         </div>
         <div className="flex flex-col justify-center text-[1]">
           Nishyan
