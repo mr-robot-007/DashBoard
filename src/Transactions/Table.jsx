@@ -12,17 +12,17 @@ function Table() {
       <div>
         <div className="rounded-md bg-slate-200 px-[0.75rem]">
           <th className=" flex gap-[40px] py-[10px] text-sm font-medium ">
-            <td className="w-[15.375rem] text-left 2xl:w-[100%]">Order Id</td>
-            <td className="flex w-[15.375rem]  items-center  text-left 2xl:w-[100%]">
+            <td className="w-[15.375rem] grow text-left ">Order Id</td>
+            <td className="flex w-[15.375rem] grow  items-center  text-left  ">
               Order Date{" "}
               <div className="p-1">
                 <BiSolidDownArrow />
               </div>
             </td>
-            <td className="relative w-[15.375rem] text-right  2xl:w-[100%] ">
+            <td className="relative w-[15.375rem] grow text-right ">
               Order amount
             </td>
-            <td className="relative w-[15.375rem] text-right  2xl:w-[100%] ">
+            <td className="relative w-[15.375rem] grow text-right ">
               <div className="absolute right-0 flex items-center gap-1">
                 Transaction Fees <CiCircleInfo />
               </div>
