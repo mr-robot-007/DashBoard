@@ -3,12 +3,12 @@ import { CiWallet } from "react-icons/ci";
 function Wallet() {
   return (
     <div className="m-4 flex items-center gap-2 rounded-md bg-[#2F4353] p-3">
-      <div className="rounded-md bg-slate-400 p-1 text-[2rem] text-white">
+      <div className="rounded-md bg-slate-600 p-1 text-[2rem] text-white ">
         <CiWallet />
       </div>
       <div className="flex flex-col">
-        <span className="text-slate-200 text-sm">Available credits</span>
-        <span>222.10</span>
+        <span className="text-sm text-slate-200">Available credits</span>
+        <span className="font-medium">222.10</span>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import { CiCircleInfo } from "react-icons/ci";
 import Row from "./Row";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Footer from "./Footer";
+import { BiSolidDownArrow } from "react-icons/bi";
 function Table() {
   return (
     <div className="h-[70rem] bg-white p-[0.75rem]">
@@ -11,10 +12,17 @@ function Table() {
       <div>
         <div className="rounded-md bg-slate-200 px-[0.75rem]">
           <th className=" flex gap-[40px] py-[10px] text-sm font-medium ">
-            <td className="w-[15.375rem] 2xl:w-[100%] text-left">Order Id</td>
-            <td className="w-[15.375rem] 2xl:w-[100%]  text-left">Order Date</td>
-            <td className="relative w-[15.375rem] 2xl:w-[100%]  text-right ">Order amount</td>
-            <td className="relative w-[15.375rem] 2xl:w-[100%]  text-right ">
+            <td className="w-[15.375rem] text-left 2xl:w-[100%]">Order Id</td>
+            <td className="flex w-[15.375rem]  items-center  text-left 2xl:w-[100%]">
+              Order Date{" "}
+              <div className="p-1">
+                <BiSolidDownArrow />
+              </div>
+            </td>
+            <td className="relative w-[15.375rem] text-right  2xl:w-[100%] ">
+              Order amount
+            </td>
+            <td className="relative w-[15.375rem] text-right  2xl:w-[100%] ">
               <div className="absolute right-0 flex items-center gap-1">
                 Transaction Fees <CiCircleInfo />
               </div>
