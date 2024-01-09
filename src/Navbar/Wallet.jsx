@@ -2,7 +2,7 @@ import { CiWallet } from "react-icons/ci";
 
 function Wallet() {
   return (
-    <div className="m-4 flex items-center gap-2 rounded-md bg-[#2F4353] p-3">
+    <div className=" bottom-0 left-0 right-auto top-auto m-4 flex items-center gap-2 rounded-md bg-[#2F4353] p-3 ">
       <div className="rounded-md bg-slate-600 p-1 text-[2rem] text-white ">
         <CiWallet />
       </div>

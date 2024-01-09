@@ -7,6 +7,7 @@ export default function App() {
     <div className="grid h-[92.625rem]   grid-cols-[14rem_1fr] grid-rows-[auto_1fr]">
       <Navbar />
       <Header />
+      
       <MainContainer />
     </div>
   );

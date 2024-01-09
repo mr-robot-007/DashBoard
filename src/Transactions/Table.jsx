@@ -10,7 +10,7 @@ function Table() {
     <div className="h-[70rem] bg-white p-[0.75rem]">
       <Search />
       <div>
-        <div className="rounded-md bg-slate-200 px-[0.75rem]">
+        <div className="rounded-md bg-slate-200 px-[0.75rem] ">
           <th className=" flex gap-[40px] py-[10px] text-sm font-medium ">
             <td className="w-[15.375rem] grow text-left ">Order Id</td>
             <td className="flex w-[15.375rem] grow  items-center  text-left  ">

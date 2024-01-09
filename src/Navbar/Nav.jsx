@@ -3,7 +3,7 @@ import UserInfo from "./UserInfo";
 
 function Nav() {
   return (
-    <div>
+    <div className=" overflow-y-scroll no-scrollbar">
       <UserInfo />
       <Options />
     </div>
